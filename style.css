@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+}
+.conteiner-topo ul{
+    overflow: hidden;
+    margin: auto;
+    list-style-type: none;
+}
+.conteiner-topo a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    display: inline-flex;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conteiner-topo li{
+    float: left;
+}
+#fri{
+    color: brown;
+    font-size: 26px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    right: 10px;
+    font-family: sans-serif;
+}
+.conteiner-topo a:hover{
+    color: cornflowerblue;
+}
+#le{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;  
+}
+#le a{
+    color: dodgerblue;  
+    font-size: 25px;
+    font-weight: 800;
+}
+.img1{
+    max-width: 700px;
+    min-width: 200px;
+    margin-left: 22%;
+    margin-top: 50px;
+}
+.conteiner-img{
+    display: flex;
+}
+.img-conteiner img{
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+.myH3{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+footer{
+    background-color: darkblue;
+    max-width: 100%;
+    color: white;
+    margin-top: 100px;
+}
+footer p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+footer p:hover{
+    color: chartreuse;
+    text-shadow: 3px 3px 5px red;
+}
